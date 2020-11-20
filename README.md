@@ -55,5 +55,5 @@ $ python main.py
 ```
 Y deberías de ver los siguiente:
 ```shell script
-Tu limpiador de texto funciona!. FELICITACIONES!!!
+Excelente, has convertido un poema en un Dataframe para trabajar con el!
 ```

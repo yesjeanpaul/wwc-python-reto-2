@@ -20,6 +20,5 @@ neruda = """Puedo escribir los versos más tristes esta noche.
 
 if __name__ == '__main__':
     d = generar_dataframe_palabras(neruda)
-    print(d)
-    df = pandas.DataFrame.from_dict(d, orient='index')
-    print(df)
+    assert isinstance(d, pandas.DataFrame), "Aun no generas un Dataframe, verifica tu algoritmo!"
+    print("Excelente, has convertido un poema en un Dataframe para trabajar con el!")
