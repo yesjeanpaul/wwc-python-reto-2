@@ -1,6 +1,6 @@
 
 # Linea Python y DS
-## Reto: Comprensión de listas
+## Reto: Diccionarios y Dataframes
 ### Descripción:
 Cuando estamos trabajando con datos existen 2 estructuras de datos que se convierten de mucha utilidad en nuestro día a
 día. Estan son: diccionarios y dataframes.
