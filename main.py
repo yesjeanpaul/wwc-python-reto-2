@@ -1,11 +1,14 @@
 # This is a sample Python script.
 import pandas
+from collections import Counter
 
 
 def generar_dataframe_palabras(text):
     # Escribe el codigo para generar el diccionario con las ocurrencias de cada palabra
-    diccionario_ocurrencias = {}
+    texto_limpio = text.replace(",", "").replace(".", "")
+    diccionario_ocurrencias = dict(Counter(texto_limpio.split()))
     # Convertir el diccionario de ocurrencias en un Dataframe usando panda
+    dataframe = pandas.DataFrame(diccionario_ocurrencias.items(), columns = ["Palabra", "Ocurrencias"])
     return dataframe
 
 
